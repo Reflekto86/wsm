@@ -152,19 +152,37 @@ span.subscribe_btn_text {
     width: 160px;
     height: 88px;
     float: left;
-    background-color: #dddddd;
+    background-color: #fafafa; /*Почему-то не цепляет цвет основного фона*/
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
     color: #8f8f94;
     font-size: 28px;
     font-weight: 700;
     border-radius: 8px;
 }
+.done {
+    width: 160px;
+    height: 88px;
+    color: #4f9791;
+    background-color: #fafafa; /*Почему-то не цепляет цвет основного фона*/
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    text-transform: uppercase;
+    margin: 6px 47px 0 0;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 64px;
+    border-radius: 8px;
+}
 .prev:active, .done:active {
     margin-top: -3px;
+    border-radius: 8px;
+    /*background-color: #dddddd; */
     box-shadow: 0 6px 17px -2px rgba(0, 0, 0, 0.6) ,0 13px 17px 2.4px rgba(0, 0, 0, 0.24); /* Корявая тень, но пока не вышло сделать лучше */
 }
+
 .slider_prev_text {
-    margin-top: 20px;
+    margin-top: -10px;
     padding-right: 5px;
 }
 .slides {
@@ -183,16 +201,6 @@ span.subscribe_btn_text {
     height: 16px;
     background-color: #8e8e93;
     border-radius: 8px;
-}
-.done {
-    color: #4f9791;
-    background-color: white;
-    font-family: 'Roboto', sans-serif;
-    float: right;
-    margin: 6px 47px 0 0;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 64px;
 }
 /* Footer End*/
 
