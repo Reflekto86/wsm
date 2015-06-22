@@ -1,0 +1,198 @@
+.wrapper {
+    width: 640px;
+    height: 1136px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Header*/
+.header {
+    height: 387px;
+}
+.header,
+.content{
+    border-bottom: 1px solid #cecece; /* Серая полоса внизу блоков */
+}
+.heading {
+    font-family: RobotoMedium;
+    opacity: 0.82;
+    color: black;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 64px;
+    margin: 0 auto;
+    padding-top: 113px;
+}
+.subtitle {
+    font-family: RobotoRegular;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+.subtitle1 {
+    padding-top: 79px;
+}
+/* Header End*/
+
+/* Content */
+.content {
+    height: 358px;
+}
+.box {
+    width: 155px;
+    height: 95px;
+    margin-left: 20px;
+}
+.box2 {
+    margin-left: 38px;
+}
+.date { /* Общая часть для дат*/
+    font-family: RobotoRegular;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 44px;
+}
+.date2 {
+    margin-top: 32px;
+}
+.date3 {
+    padding-top: 4px;
+}
+.price { /* Общая часть для цен*/
+    font-family: RobotoMedium;
+    color: #000000;
+    float: left;
+    font-size: 24px;
+    opacity: 0.75;
+    font-weight: 500;
+}
+.price1,
+.price3 {
+    margin-left: 20px;
+}
+
+.buttons { /* Общая часть для кнопок */
+    width: 294px;
+    height: 88px;
+    float: right;
+    margin-right: 40px;
+}
+.subscribe_btn {
+    background-color: #00bcd4;
+    border-radius: 8px;
+}
+.subscribe_btn1 {
+    margin-top: -3px;
+    box-shadow: 0 23px 37.6px 2.4px rgba(0, 0, 0, 0.24); /* Корявая тень, но пока не вышло сделать лучше */
+}
+.subscribe_btn2 {
+    margin-top: 28px;
+    box-shadow: 1px 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+}
+span.subscribe_btn_text {
+    font-family: RobotoBold;
+    color: #fafafa;
+    padding-top: 14px;
+    padding-right: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.subtitle2 {
+    margin-top: 80px;
+}
+/* Content End*/
+
+/* Footer */
+.footer {
+    height: 343px;
+}
+.buy_btn {
+    background-color: #4f9791;
+    box-shadow: 0 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+.buy_btn span {
+    font-family: RobotoBold;
+    color: #fafafa;
+    padding-top: 14px;
+    padding-right: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.slider {
+    width: 640px;
+    height: 90px;
+    float: left;
+    margin-top: 86px;
+}
+.prev {
+    width: 160px;
+    height: 88px;
+    float: left;
+    background-color: #dddddd;
+    font-family: RobotoBold;
+    color: #8f8f94;
+    font-size: 28px;
+    font-weight: 700;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+.slider_prev_text {
+    margin-top: 20px;
+    padding-right: 5px;
+}
+.slides {
+    background-color: #dddddd;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 30px 0 0 21px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.slide1 {
+    margin-left: 76px;
+}
+.slide5 {
+    width: 16px;
+    height: 16px;
+    background-color: #8e8e93;
+    border-radius: 8px;
+}
+.done {
+    color: #4f9791;
+    font-family: RobotoBold;
+    float: right;
+    margin: 6px 47px 0 0;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 64px;
+}
+/* Footer End*/
+
+/* Neutral Classes */
+.big_letters {
+    text-transform: uppercase;
+}
+.header,
+.box,
+.prev,
+.buy_btn span,
+span.subscribe_btn_text {
+    display: block;
+}
+
+.slider_prev_text,
+.buttons
+{
+    display: inline-block;
+}
+/* Neutral Classes End */
