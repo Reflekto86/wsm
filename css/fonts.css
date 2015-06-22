@@ -11,7 +11,8 @@
 
 /* font-family: "RobotoRegular"; */
 @font-face {
-    font-family: "RobotoRegular";
+    /*font-family: "RobotoRegular";*/
+    font-family: "Roboto"; /* У тебя же так используется в свойствах CSS */
     src: url("../fonts/RobotoRegular/RobotoRegular.eot");
     src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
     url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
