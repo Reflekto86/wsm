@@ -100,6 +100,26 @@ span.subscribe_btn_text {
     font-weight: 700;
     line-height: 64px;
 }
+
+.pro_btn {
+    background-color: #00bcd4;
+    border-radius: 8px;
+    font-family: 'RobotoBold', sans-serif;
+    color: #fafafa;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 64px;
+    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.24);
+}
+
+.pro_btn:active {
+    margin-top: -3px;
+    box-shadow: 0 6px 17px -2px rgba(0, 0, 0, 0.6) ,0 13px 17px 2.4px rgba(0, 0, 0, 0.24); /* Корявая тень, но пока не вышло сделать лучше */
+
+}
+
 .subtitle2 {
     margin-top: 80px;
 }
